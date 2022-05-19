@@ -1,0 +1,54 @@
+*{
+    box-sizing:0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    border:1px solid black;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    align-items: center;
+    overflow: auto;
+}
+
+.logo{
+    width: 32%;
+
+}
+
+.logo a img{
+    width: 25px;  
+    display: inline-block;
+    align-items: center;
+}
+
+.logo a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.menu{
+    width:65%;
+}
+
+.menu li{
+    padding: 20px;
+    display: inline-block;
+     
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.usuario{ 
+    text-align: right;
+}
